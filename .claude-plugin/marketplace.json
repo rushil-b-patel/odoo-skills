@@ -1,0 +1,14 @@
+{
+  "name": "odoo-skills",
+  "owner": { "name": "Rushil Patel" },
+  "description": "Claude Code skills for Odoo development.",
+  "plugins": [
+    {
+      "name": "odoo-skills",
+      "description": "Claude Code skills for Odoo development: PR review and spec grilling.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./pr-review", "./spec-grill"]
+    }
+  ]
+}
